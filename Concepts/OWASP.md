@@ -15,4 +15,4 @@ ALso, 100% of the applications tested by OWASP were found to have some form of b
 
 Notable CWE (The weakness that can be exploited were)
 
-CWE 201, CWE 201, CWE 918, CWE 352
+CWE 200, CWE 201, CWE 918, CWE 352
