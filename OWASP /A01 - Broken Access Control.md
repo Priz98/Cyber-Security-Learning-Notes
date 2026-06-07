@@ -31,5 +31,9 @@ An application puts all of their access control in their front-end. While the at
 $ curl https://example.com/app/admin_getappInfo
 from the command line.
 
+## CWE References
+
 CWE 200, CWE 201, CWE 918, CWE 352 and etc 
+
+
 ref page. https://owasp.org/Top10/2025/A01_2025-Broken_Access_Control/
