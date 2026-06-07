@@ -14,4 +14,5 @@ It is a catalog of common software weakness types.
 
 ## Notes
 
+#Why did I start learning CWE
 OWASP uses CWE references to map vulnerabilities to common weakness categories.
