@@ -8,6 +8,8 @@ It also provides the best practices that a developer should do in order to make 
 
 ## OWASP Top 10 2025:
 
+For Eg :- 
+
 ### A01 - Broken Access Control. 
 
 Broken Access Control is where a user gets access of a data or service that they should not have the access of normally. Which is an anomily
