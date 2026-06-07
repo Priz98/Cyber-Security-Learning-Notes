@@ -7,7 +7,7 @@ Also, 100% of the applications tested by OWASP were found to have some form of b
 
 Notable CWE (The weakness that can be exploited were)
 
-## There are various ways in which that can cause a Broken Access Control
+## There are various ways that can cause a Broken Access Control
 
 1. Violation following the principle of least privilege.
 2. URL tampering to access unauthorized objects or pages.
@@ -23,6 +23,13 @@ Notable CWE (The weakness that can be exploited were)
 3. Follow the principle of least privilege.
 4. Disable directory listing and metadata exposure.
 5. Log access control failures and monitor them.
+
+## Attack Example
+
+An application puts all of their access control in their front-end. While the attacker cannot get to https://example.com/app/admin_getappInfo due to JavaScript code running in the browser, they can simply execute:
+
+$ curl https://example.com/app/admin_getappInfo
+from the command line.
 
 CWE 200, CWE 201, CWE 918, CWE 352 and etc 
 ref page. https://owasp.org/Top10/2025/A01_2025-Broken_Access_Control/
