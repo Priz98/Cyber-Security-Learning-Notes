@@ -7,4 +7,14 @@ Also, 100% of the applications tested by OWASP were found to have some form of b
 
 Notable CWE (The weakness that can be exploited were)
 
-CWE 200, CWE 201, CWE 918, CWE 352
+## There are various ways in which that can cause a Broken Access Control
+
+1. Violation following the principle of least privilege.
+2. URL tampering to access unauthorized objects or pages.
+3. Accessible API with missing access controls for POST, PUT, and DELETE.
+4. Tampering and Misusing JWTs.
+5. CORS misconfiguration allows API access from unauthorized or untrusted origins.
+6. Force browsing
+
+CWE 200, CWE 201, CWE 918, CWE 352 and etc 
+ref page. https://owasp.org/Top10/2025/A01_2025-Broken_Access_Control/
