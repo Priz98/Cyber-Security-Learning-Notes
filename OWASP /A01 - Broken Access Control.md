@@ -16,5 +16,13 @@ Notable CWE (The weakness that can be exploited were)
 5. CORS misconfiguration allows API access from unauthorized or untrusted origins.
 6. Force browsing
 
+## Prevention
+
+1. Deny access by default.
+2. Enforce server-side access control checks.
+3. Follow the principle of least privilege.
+4. Disable directory listing and metadata exposure.
+5. Log access control failures and monitor them.
+
 CWE 200, CWE 201, CWE 918, CWE 352 and etc 
 ref page. https://owasp.org/Top10/2025/A01_2025-Broken_Access_Control/
