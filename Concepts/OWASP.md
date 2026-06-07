@@ -1,4 +1,4 @@
-##OWASP
+# OWASP
 
 ## What is OWASP?
 
@@ -7,7 +7,7 @@ It provides a reference to learn th avoid the mistakes or vulnerabilties made in
 
 ## OWASP Top 10 2025:
 
-A01 - Broken Access Control. 
+### A01 - Broken Access Control. 
 
 100% of the applications tested were found to have some form of broken access control.
 
