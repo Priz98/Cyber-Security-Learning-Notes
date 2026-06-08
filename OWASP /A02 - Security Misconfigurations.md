@@ -28,6 +28,8 @@ configured at any stage of its lifecycle, resulting in potential security vulner
 
 ## Attack Scernario
 
+Directory listing is not disabled on the server. An attacker discovers they can simply list directories. The attacker finds and downloads the compiled Java classes, which they decompile and reverse engineer to view the code. The attacker then finds a severe access control flaw in the application.
+
 ## My Understanding
 
 The attacker is not specifically looking for source code. They are trying to collect any information that helps them understand the application better.
