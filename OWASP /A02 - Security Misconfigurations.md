@@ -9,7 +9,7 @@ configured at any stage of its lifecycle, resulting in potential security vulner
 
 1. Lack of proper Security Hardening.
 2. Improperly assigned permission.
-3. Using Default Accounts and Pass.
+3. Using default accounts and passwords.
 4. Overcomplicating application structure, leaving open port.
 5. Using legacy applications.
 6. Once upgraded not setting up corresponding security configurations.
