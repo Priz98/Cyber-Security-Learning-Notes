@@ -35,17 +35,17 @@ A Software supply chain failure occurs where any used component is vulnerable or
 
     c. Sandbox areas
 
-Developer IDEs
+        Developer IDEs
 
-SBOM tooling, and created artifacts
+        SBOM tooling, and created artifacts
 
-Logging systems and logs
+        Logging systems and logs
 
-Third party integrations, such as SaaS
+        Third party integrations, such as SaaS
 
-Artifact repositories
+        Artifact repositories
 
-Container registries
+        Container registries
 
 10. Hardening the following systems are neccessary requirements:
 
