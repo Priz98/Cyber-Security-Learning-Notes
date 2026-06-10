@@ -57,5 +57,11 @@ A Software supply chain failure occurs where any used component is vulnerable or
 
         Artifacts (ensure integrity via provenance, signing, and time stamping, promote artifacts rather than rebuilding for each environment, ensure builds are immutable)
 
+## Attack Example: 
 
+A trusted vendor is compromised such that it behaves maliciously only under a specific condition.
+
+## Real world case - 
+
+The 2025 Bybit theft of $1.5 billion was caused by a supply chain attack in wallet software that only executed when the target wallet was being used.
 
