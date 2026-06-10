@@ -29,11 +29,11 @@ A Software supply chain failure occurs where any used component is vulnerable or
 8. Avoid deploying updates to all systems simultaneously. Use staged rollouts or canary deployments to limit exposure in case a trusted vendor is compromised.
 9. There should be a change management process or tracking system in place to track changes to:
 
-    a. CI/CD settings (all build tools and pipelines)
+        CI/CD settings (all build tools and pipelines)
 
-    b. Code repositories
+        Code repositories
 
-    c. Sandbox areas
+        Sandbox areas
 
         Developer IDEs
 
@@ -49,12 +49,13 @@ A Software supply chain failure occurs where any used component is vulnerable or
 
 10. Hardening the following systems are neccessary requirements:
 
-Code repository
+        Code repository
+    
+        Developer workstations
 
-Developer workstations
+        Built server & CI/CD
 
-Built server & CI/CD
+        Artifacts (ensure integrity via provenance, signing, and time stamping, promote artifacts rather than rebuilding for each environment, ensure builds are immutable)
 
-Artifacts (ensure integrity via provenance, signing, and time stamping, promote artifacts rather than rebuilding for each environment, ensure 
-builds are immutable)
+
 
