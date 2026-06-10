@@ -29,11 +29,11 @@ A Software supply chain failure occurs where any used component is vulnerable or
 8. Avoid deploying updates to all systems simultaneously. Use staged rollouts or canary deployments to limit exposure in case a trusted vendor is compromised.
 9. There should be a change management process or tracking system in place to track changes to:
 
-CI/CD settings (all build tools and pipelines)
+    a. CI/CD settings (all build tools and pipelines)
 
-Code repositories
+    b. Code repositories
 
-Sandbox areas
+    c. Sandbox areas
 
 Developer IDEs
 
