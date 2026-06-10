@@ -61,7 +61,7 @@ A Software supply chain failure occurs where any used component is vulnerable or
 
 A trusted vendor is compromised such that it behaves maliciously only under a specific condition.
 
-## Real world case - https://www.csis.org/analysis/bybit-heist-and-future-us-crypto-regulation
+## [Real world case] (https://www.csis.org/analysis/bybit-heist-and-future-us-crypto-regulation) - 
 
 The 2025 Bybit theft of $1.5 billion was caused by a supply chain attack in wallet software that only executed when the target wallet was being used.
 
