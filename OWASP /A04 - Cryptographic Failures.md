@@ -79,4 +79,8 @@ The password database uses unsalted or simple hashes to store everyone's passwor
 
 ### My understanding -
 
-Since the passwords in the database are unsalted they are ultmately weaker and can be exposed by rainbows that have pre-caculated hashes. Since hashing same passwords without salting can result in exact same hash, the similarity will also be exploited by the attacker.
+Since the passwords in the database are stored using unsalted hashes, they are much easier to crack using rainbow tables that contain precomputed hashes for common passwords.
+
+Without salting, identical passwords will always produce identical hashes, allowing attackers to quickly identify users sharing the same password.
+
+Even when passwords are salted, using fast hashing algorithms can still be dangerous because modern GPUs can perform billions of hash calculations per second. This is why adaptive password hashing algorithms such as Argon2, bcrypt, scrypt, or PBKDF2 should be used.
