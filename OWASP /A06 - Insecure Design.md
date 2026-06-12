@@ -10,14 +10,16 @@ because the required security mechanisms were never included in the design itsel
 ## Three key parts of having a secure design are:
 
 1. Gathering Requirements and Resource Management
+ 
 2. Creating a Secure Design
+
 3. Having a Secure Development Lifecycle
 
 ## Gathering Requirements and Resource Management
 
-Collect and negotiate the business requirements for an application with the business.\n
-Take into account how exposed your application will be and if you need segregation of tenants.
-Compile the technical requirements, including functional and non-functional security requirements.
+1. Collect and negotiate the business requirements for an application with the business.
+2. Take into account how exposed your application will be and if you need segregation of tenants.
+3. Compile the technical requirements, including functional and non-functional security requirements.
 
 
 
