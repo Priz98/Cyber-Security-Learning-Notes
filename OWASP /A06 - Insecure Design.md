@@ -63,5 +63,8 @@ A retail chain’s e-commerce website does not have protection against bots run 
 
 ## My undertanding
 
-Due to the improperly designed software logic the application allowed bots to make instanious purchases. Which later created bad relation between the products manifaturer and the application's company.
+Due to insecure business logic and the lack of anti-bot controls, the application allowed automated bots to instantly purchase newly available products.
+Although the application functioned as intended, the design itself failed to consider how malicious users could abuse the system.
+Security controls such as rate limiting, CAPTCHAs, purchase limits, or bot detection mechanisms could have prevented this abuse.
+This demonstrates that even perfectly functioning software can be insecure if security requirements are not considered during the design phase.
 
