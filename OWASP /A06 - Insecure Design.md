@@ -16,6 +16,10 @@ because the required security mechanisms were never included in the design itsel
 ## Gathering Requirements and Resource Management
 
 a) Collect and negotiate the business requirements for an application with the business.
+
 b) Take into account how exposed your application will be and if you need segregation of tenants.
+
 c) Compile the technical requirements, including functional and non-functional security requirements.
+
+
 
