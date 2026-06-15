@@ -30,7 +30,39 @@ When an attacker tricks the system into recognizing an invalid or inccorect user
 
 12. User sessions or authentication tokens are not properly invalidated after logout or long periods of inactivity.
 
-
-
-
 13. Credentials or tokens are accepted without verifying their intended audience, scope, or issuer, potentially allowing unauthorized access across different services.
+
+## Prevention Measures for Authentication Failures
+
+1. Implement and enforce Multi-Factor Authentication (MFA) wherever possible to reduce the risk of credential stuffing, brute force attacks, and stolen credential reuse.
+
+2. Encourage and support the use of password managers so users can generate and store strong, unique passwords.
+
+3. Do not deploy applications with default credentials, especially for administrative accounts.
+
+4. Implement weak password checks and block commonly used passwords such as those found in lists of the top 10,000 worst passwords.
+
+5. Validate new or changed passwords against databases of known breached credentials to prevent password reuse.
+
+6. Follow modern password policies such as NIST guidelines regarding password length, complexity, and storage.
+
+7. Do not force periodic password changes unless there is evidence or suspicion of a credential compromise.
+
+8. Registration, login, and password recovery processes should use generic error messages to prevent account enumeration attacks.
+
+9. Limit or delay repeated failed login attempts to reduce brute force attacks while avoiding denial-of-service scenarios.
+
+10. Log authentication failures and alert administrators when suspicious login activity or automated attacks are detected.
+
+11. Use secure server-side session management that generates new random session identifiers after successful login.
+
+12. Session identifiers should be stored in secure cookies and should never be exposed in URLs or other insecure locations.
+
+13. Invalidate sessions and authentication tokens after logout, inactivity, or timeout periods.
+
+14. Use trusted and well-tested authentication and identity management solutions whenever possible.
+
+15. Verify the issuer, audience, scope, and intended use of credentials or tokens before granting access.
+
+
+
