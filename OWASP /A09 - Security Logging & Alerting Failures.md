@@ -61,3 +61,5 @@ Security Logging and Alerting Failures occur when security events are not proper
 12. Establish and regularly test an incident response and recovery plan.
 
 13. Use centralized logging, SIEM platforms, and monitoring tools to correlate events and detect attacks more effectively.
+
+14. Ensure systems use synchronized and accurate timestamps so security events can be correlated correctly during investigations.
