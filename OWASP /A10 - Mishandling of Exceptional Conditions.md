@@ -38,4 +38,41 @@ A secure application should properly handle exceptional conditions by failing sa
 
 15. Attackers can intentionally trigger exceptional conditions and exploit weak error handling to cause crashes, information disclosure, unauthorized actions, or other security vulnerabilities.
 
+## Prevention Measures for Mishandling of Exceptional Conditions
+
+1. Anticipate unexpected situations during development and design applications to handle failures safely and predictably.
+
+2. Catch and handle exceptions at the point where they occur instead of relying solely on high-level error handling.
+
+3. Provide meaningful error messages to users without exposing sensitive system information.
+
+4. Log all exceptional conditions and security-relevant errors for investigation and auditing purposes.
+
+5. Generate alerts for critical failures, suspicious behavior, or repeated exceptions that may indicate an attack.
+
+6. Implement a global exception handler to catch and safely process unhandled exceptions.
+
+7. Use monitoring and observability tools to identify recurring errors, abnormal behavior, and ongoing attacks.
+
+8. Roll back incomplete transactions when an error occurs and return the application to a safe state (fail closed).
+
+9. Avoid attempting partial recovery of failed transactions, as this can result in inconsistent or corrupted application states.
+
+10. Apply rate limiting, throttling, resource quotas, and other restrictions to prevent abuse and resource exhaustion.
+
+11. Implement strict input validation and properly sanitize or escape potentially dangerous input.
+
+12. Use centralized error handling to ensure exceptions are processed consistently throughout the application.
+
+13. Standardize logging, monitoring, alerting, and exception handling mechanisms across the application.
+
+14. Define security requirements for exception handling during the design phase of the project.
+
+15. Perform threat modeling and secure design reviews to identify exceptional conditions and failure scenarios before implementation.
+
+16. Conduct code reviews and static analysis to identify weak or inconsistent exception handling logic.
+
+17. Perform stress testing, performance testing, and penetration testing to identify failures under abnormal conditions.
+
+18. Establish organization-wide standards for handling exceptional conditions to improve consistency, auditing, and security.
 
