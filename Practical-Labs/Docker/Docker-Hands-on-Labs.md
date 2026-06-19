@@ -58,3 +58,13 @@ docker run -p3000:3360 ubuntu
 ![Alt text for screen readers](Images/Created-Container-using-port-binding.png)
 
 
+### 5. Docker Networks
+
+This command is used to list all the Docker Networks present at the moment. 
+
+```bash
+docker networks
+```
+
+![Alt text for screen readers](Images/Docker-Network.png)
+
