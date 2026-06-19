@@ -66,5 +66,5 @@ This command is used to list all the Docker Networks present at the moment.
 docker networks
 ```
 
-![Alt text for screen readers](Images/Docker-Network.png)
+![Alt text for screen readers](Images/Docker-Networks.png)
 
