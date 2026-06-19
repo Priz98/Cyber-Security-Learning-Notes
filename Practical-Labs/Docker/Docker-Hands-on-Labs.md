@@ -1,3 +1,6 @@
 # Docker Hands on Labs
 
-After Perfrom
+## Firstly to install Docker itself visit Docker org
+
+[Docker Desktop Windows Installation Guide](https://docs.docker.com/desktop/setup/install/windows-install/)
+
