@@ -11,8 +11,8 @@ It does this by using these features:
 
 1.  Image : A Docker image is a template used to create containers. It consists of Application code, Dependencies, Configuration files.
 2.  Container : A container is a running instance of a Docker image. Containers provide isolated environments for applications.
-3.  Volume : Containers do not permanently store data by default. So we use Docker Volumes, Volumes are like a storage space where
-data/ objects are stored when the containers are stopped, and the same data is used when the container is restarted.
+3.  Volume : Containers do not permanently store data by default. If a container is removed, any data stored inside it may also be lost.
+Docker Volumes provide persistent storage that exists independently of containers. This allows data to remain available even if a container is stopped, deleted, or recreated.
 
 ## Why Docker is Included in This Repository: 
 
