@@ -33,3 +33,28 @@ docker ps -a
 ```
 
 ![Alt text for screen readers](Images/Container-list.png)
+
+
+### 3. Deleting Container
+
+This commands is used to delete a container. 
+
+```bash
+docker rm <container name>
+```
+
+![Alt text for screen readers](Images/Deleting-Container.png)
+
+
+### 4. Port Binding
+
+This is the same command as run but with an port binding option. 
+
+```bash
+docker run -p3000:3360 ubuntu
+```
+
+![Alt text for screen readers](Images/Port-binding.png)
+![Alt text for screen readers](Images/Created-Container-using-port-binding.png)
+
+
