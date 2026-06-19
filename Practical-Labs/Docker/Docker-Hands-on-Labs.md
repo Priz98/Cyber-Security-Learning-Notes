@@ -21,4 +21,4 @@ This Command is used to Create and Run a Docker Container using the downloaded I
 docker run -it ubuntu
 ```
 
-![Alt text for screen readers](Images/Image-Pull-n-Crear-Container.png)
+![Alt text for screen readers](../Images/Image-Pull-n-Crear-Container.png)
