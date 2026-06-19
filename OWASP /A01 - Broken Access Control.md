@@ -2,8 +2,7 @@
 
 ## What is A01 ? 
 
-Broken Access Control is where a user gets access of a data or service that they should not have the access of normally. Which is an anomily
-Also, 100% of the applications tested by OWASP were found to have some form of broken access control.
+Broken Access Control occurs when an application fails to properly enforce authorization rules, allowing users to access resources or perform actions that they are not permitted to access or perform.
 
 Notable CWE (The weakness that can be exploited were)
 
