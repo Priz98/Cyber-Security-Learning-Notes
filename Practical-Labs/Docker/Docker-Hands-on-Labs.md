@@ -46,7 +46,7 @@ Second command creates and starts an Ubuntu container and provides an interactiv
 
 ### Screenshot
 
-![Ubuntu Container Shell](Images/Image-Pull & Create Container.png)
+![Ubuntu Container Shell](Images/Image-Pull&CreateContainer.png)
 
 ### What I Learned
 
