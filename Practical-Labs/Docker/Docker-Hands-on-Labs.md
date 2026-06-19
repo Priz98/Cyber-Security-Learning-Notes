@@ -63,8 +63,19 @@ docker run -p3000:3360 ubuntu
 This command is used to list all the Docker Networks present at the moment. 
 
 ```bash
-docker networks
+docker network ls
 ```
 
 ![Alt text for screen readers](Images/Docker-Networks.png)
 
+### 6. Accessing Bash Terminal of Ubuntu image.
+
+This command lets us access the container's CLI.
+
+```bash
+docker exec -it <container-name> /bin/bash
+```
+
+to check if the container contains bash or not we can check it with **docker ps -a**
+
+![Alt text for screen readers](Images/accessing-terminal-after-creation.png)
