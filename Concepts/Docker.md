@@ -1,0 +1,28 @@
+# Docker
+
+## Whats is Docker?
+
+Docker is a platform used to run applications in isolated environments called containers.
+Containers package an application with everything it needs to run, making deployment consistent across different systems.
+
+It does this by using these features: 
+
+## Features
+
+1.  Image : A Docker image is a template used to create containers. It consists of Application code, Dependencies, Configuration files.
+2.  Container : A container is a running instance of a Docker image. Containers provide isolated environments for applications.
+3.  Volume : The Container itself is non-volatile and forgets its contents after stop. So we use Docker Volumes, Volumes are like a storage space where
+data/ objects are stored when the containers are stopped, and the same data is used when the container is restarted.
+
+## Why Docker is Included in This Repository: 
+
+Docker is used to create isolated lab environments for cybersecurity practice.
+
+It allows vulnerable applications and security tools to run safely without affecting the host system.
+
+## What I Learned:
+
+1. Images are used to create containers.
+2. Containers are running instances of images.
+3. Port mapping exposes container services to the host.
+4. Docker provides isolated environments for labs and testing.
