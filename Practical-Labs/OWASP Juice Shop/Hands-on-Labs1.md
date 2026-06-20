@@ -109,3 +109,122 @@ The server responded with HTTP Status Code 201 Created, indicating that the acco
 - POST requests are used to create new resources.
 - HTTP 201 Created indicates successful resource creation.
 - Security questions and answers are collected during registration and stored separately by the application.
+
+---
+
+## Observation 3 - Successful Login & Authentication Flow
+
+### Objective
+
+Understand how authentication works after a successful login.
+
+---
+
+## Login Request
+
+### Endpoint
+
+POST /rest/user/login
+
+### Status Code
+
+200 OK
+
+### Request Payload
+
+{
+  "email": "oops@gmail.com",
+  "password": "admin"
+}
+
+### Response
+
+{
+  "authentication": {
+    "token": "<JWT Token>",
+    "bid": 6,
+    "umail": "oops@gmail.com"
+  }
+}
+
+### Screenshot
+
+![<width=200>](Screenshots/6.png)
+![<width=200>](Screenshots/7.png)
+![<width=200>](Screenshots/8.png)
+
+
+### Understanding
+
+The browser sent the user's email and password to the server.
+
+The server validated the credentials and authenticated the user.
+
+After successful authentication, the server returned:
+
+- JWT Token
+- Basket ID (6)
+- User Email (oops@gmail.com)
+
+The JWT token is later used to identify the user without requiring the browser to resend the username and password.
+
+---
+
+## Identity Verification Request
+
+### Endpoint
+
+GET /rest/user/whoami
+
+### Status Code
+
+200 OK
+
+### Response
+
+{
+  "user": {
+    "id": 24,
+    "email": "oops@gmail.com",
+    "lastLoginIp": "0.0.0.0",
+    "profileImage": "..."
+  }
+}
+
+### Screenshot
+
+![<width=200>](Screenshots/9.png)
+![<width=200>](Screenshots/10.png)
+
+### Understanding
+
+After login, the browser requested information about the currently authenticated user.
+
+The browser did not send the email address directly.
+
+Instead, it used the JWT token received during login.
+
+The server verified the token, identified the user, and returned the user's information.
+
+---
+
+## Authentication Flow Summary
+
+Browser
+↓
+POST /rest/user/login
+↓
+Email + Password
+↓
+Server Validates Credentials
+↓
+JWT Token Returned
+↓
+Token Stored in Browser
+↓
+GET /rest/user/whoami
+↓
+Server Verifies Token
+↓
+Returns User Information
+
