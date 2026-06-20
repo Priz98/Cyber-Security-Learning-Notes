@@ -9,7 +9,7 @@ Run Juice Shop:
 
 docker run -d -p 3000:3000 --name juice-shop bkimminich/juice-shop
 
-![alttext](Screenshots/1.png)
+![alttext].(Screenshots/1.png)
 
 ---
 
