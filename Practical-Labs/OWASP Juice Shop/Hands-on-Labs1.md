@@ -30,7 +30,8 @@ POST /rest/user/login
 
 ### Screenshot
 
-[Screenshots/2.png]
+![<width=200>](Screenshots/2.png)
+
 
 ### Understanding
 
