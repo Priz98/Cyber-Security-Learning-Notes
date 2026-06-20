@@ -9,7 +9,9 @@ Run Juice Shop:
 
 docker run -d -p 3000:3000 --name juice-shop bkimminich/juice-shop
 
-(Screenshots/1.png)
+[](Screenshots/1.png)
+
+---
 
 ## Observation 1 - Invalid Login
 
