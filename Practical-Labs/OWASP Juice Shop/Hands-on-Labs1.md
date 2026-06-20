@@ -31,6 +31,7 @@ POST /rest/user/login
 ### Screenshot
 
 ![<width=200>](Screenshots/2.png)
+![<width=200>](Screenshots/3.png)
 
 
 ### Understanding
